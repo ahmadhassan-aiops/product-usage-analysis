@@ -1,0 +1,22 @@
+{
+  "built": "2026-11-17",
+  "raw_shape": [
+    10575,
+    6
+  ],
+  "customers": 100,
+  "features": [
+    "Account Management",
+    "Automation",
+    "Reporting",
+    "Roadmap",
+    "Saga Creation",
+    "Task Creation"
+  ],
+  "first": "2017-06-01",
+  "last": "2023-01-31",
+  "missing": 0,
+  "duplicates": 0,
+  "fractional_minutes": 33,
+  "avg_matches": true
+}
