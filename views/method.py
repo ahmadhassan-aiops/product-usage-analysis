@@ -15,7 +15,7 @@ def render() -> None:
         "Data & method",
         "How the analysis was done",
         "The data, the preparation, and why this re-analysis reaches a different conclusion from the first one. "
-        f'The original Python work is in the <a href="{NOTEBOOK_URL}" target="_blank">notebook</a>.',
+        f'The original Python work is in the <a href="{NOTEBOOK_URL}" target="_blank">notebook</a> (updated with the corrections described here).',
     )
 
     section("The data")
@@ -53,7 +53,7 @@ def render() -> None:
         ("Which feature?", "Average time per record in January 2023, by feature: Automation lowest, so blamed",
          "Each feature against its own history: Roadmap halved from June 2022 and explains about three quarters "
          "of the drop; Automation is always the lowest"),
-    ], columns=["Question", "Original approach", "This re-analysis"]), hide_index=True, border="horizontal")
+    ], columns=["Question", "First version", "This re-analysis"]), hide_index=True, border="horizontal")
 
     section("Limits of this data")
     md("- **What, not why.** The logs show Roadmap usage halving in June 2022 but not the reason; that needs "

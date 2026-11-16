@@ -63,7 +63,7 @@ def render() -> None:
        "for seven months inside a total that looked roughly stable.\n"
        "3. **Compare each month with the same month last year** as well as the month before, so seasonal highs "
        "like January are judged fairly.")
-    note("This re-analysis reaches a different conclusion from the original notebook, which pointed to the "
+    note("This re-analysis reaches a different conclusion from the first version of the analysis, which pointed to the "
          "Automation feature and a list of eight customers. Data & method explains the difference.")
     cap("Usage data only: the logs say what changed and when, not why.")
     with st.container(border=True):

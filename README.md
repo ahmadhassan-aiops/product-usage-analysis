@@ -10,7 +10,7 @@ six features, June 2017 to January 2023. The question was why usage looked weak 
 - **Customers**: each customer against their own history, and how often such dips happen in a normal month.
 - **Data & method**: preparation, anonymisation, and how this differs from the original analysis.
 
-Original notebook: [AIOPS-Portfolio-Projects / Usage_Analysis_of_Customers](https://github.com/ahmadhassan-aiops/AIOPS-Portfolio-Projects/tree/main/1.%20Data-analysis-with-python-Projects/Usage_Analysis_of_Customers)
+Notebook (updated with the corrections described in the app): [AIOPS-Portfolio-Projects / Usage_Analysis_of_Customers](https://github.com/ahmadhassan-aiops/AIOPS-Portfolio-Projects/tree/main/1.%20Data-analysis-with-python-Projects/Usage_Analysis_of_Customers)
 
 ## Run locally
 
