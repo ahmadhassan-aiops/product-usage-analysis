@@ -1,5 +1,5 @@
 """
-What happened to product usage in January 2023? An interactive re-analysis by Ahmad Hassan.
+What happened to product usage in January 2023? An interactive analysis by Ahmad Hassan.
 All data ships with the app.
 """
 

@@ -46,8 +46,7 @@ def render() -> None:
     insight("Measured per session, Roadmap again moves most. Account Management and Automation are also lower; "
             "Automation sessions have always been the shortest, and its January figure is within its normal "
             "month-to-month range.")
-    note("The first version of the analysis ranked features by their average time in January 2023 and concluded that "
-         "Automation, the lowest, caused the decline. But Automation is the lowest-time feature in every month. "
-         "Comparing each feature with its own history points to Roadmap instead.")
+    note("Automation is the lowest-time feature in every month, so a low January figure is normal for it. Comparing "
+         "each feature with its own history is what points to Roadmap.")
 
     footer()

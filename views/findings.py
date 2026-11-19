@@ -90,8 +90,6 @@ def render() -> None:
         ("compare_arrows", "Compare with the same month last year",
          "As well as the month before, so seasonal highs like January are judged fairly."),
     ])
-    note("This re-analysis reaches a different conclusion from the first version of the analysis, which pointed to the "
-         "Automation feature and a list of eight customers. Data & method explains the difference.")
     cap("Usage data only: the logs say what changed and when, not why.")
     method_card("<b>How this was done.</b> Daily usage records were summed per month, per feature and per customer, "
                 "and each month was compared with the same month a year earlier and with each customer's and "

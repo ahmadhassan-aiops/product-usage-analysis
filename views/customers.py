@@ -37,9 +37,8 @@ def render() -> None:
     insight(f"In a typical month about <b>{drops.median():.0f}</b> customers are this far below their usual level; "
             f"January 2023 had {drops.loc[data.JAN23]}. There is <b>no unusual group of customers</b> behind January: "
             "each customer has only one or two records a month, so big individual swings are normal.")
-    note("The first version of the analysis flagged eight \"significant drop\" customers by comparing their whole-January total "
-         "with their average for a single day's record in earlier years. That compares a month with a day, so the "
-         "list mostly shows customers who happened to be quiet in January.")
+    note("Each customer's January is compared with their own average <b>month</b>, never with a single day's record, "
+         "and checked against how many customers dip that far in a normal month.")
 
     section("Look up a customer", "Monthly minutes for one customer.")
     who = st.selectbox("Customer", list(c.index), index=0, key="who")

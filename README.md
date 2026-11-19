@@ -2,7 +2,7 @@
 
 **Live app:** [product-usage-analysis.streamlit.app](https://product-usage-analysis.streamlit.app/) · **Notebook and project folder:** [AIOPS-Portfolio-Projects](https://github.com/ahmadhassan-aiops/AIOPS-Portfolio-Projects/tree/main/1.%20Data-analysis-with-python-Projects/Usage_Analysis_of_Customers)
 
-An interactive re-analysis by **Ahmad Hassan** (AI Engineer) of a software product's usage logs: 100 customers,
+An interactive analysis by **Ahmad Hassan** (AI Engineer) of a software product's usage logs: 100 customers,
 six features, June 2017 to January 2023. The question was why usage looked weak in January 2023.
 
 - **Key findings**: January 2023 was the lowest January in the data, but the fall began in June 2022, when the
@@ -10,9 +10,9 @@ six features, June 2017 to January 2023. The question was why usage looked weak 
 - **Usage over time**: monthly minutes, sessions and active customers; every January compared; year-on-year change.
 - **Features**: what each feature contributed to the change, feature trends, time per session.
 - **Customers**: each customer against their own history, and how often such dips happen in a normal month.
-- **Data & method**: preparation, anonymisation, and how this differs from the original analysis.
+- **Data & method**: preparation, anonymisation, how each question was answered, and limits.
 
-Notebook (updated with the corrections described in the app): [AIOPS-Portfolio-Projects / Usage_Analysis_of_Customers](https://github.com/ahmadhassan-aiops/AIOPS-Portfolio-Projects/tree/main/1.%20Data-analysis-with-python-Projects/Usage_Analysis_of_Customers)
+Notebook: [AIOPS-Portfolio-Projects / Usage_Analysis_of_Customers](https://github.com/ahmadhassan-aiops/AIOPS-Portfolio-Projects/tree/main/1.%20Data-analysis-with-python-Projects/Usage_Analysis_of_Customers)
 
 ## Run locally
 

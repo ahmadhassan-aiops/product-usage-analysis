@@ -1,4 +1,4 @@
-"""Data & method: the usage logs, preparation, and how this re-analysis differs from the original."""
+"""Data & method: the usage logs, preparation, how each question was answered, limits."""
 
 import pandas as pd
 import streamlit as st
@@ -14,8 +14,8 @@ def render() -> None:
     header(
         "Data & method",
         "How the analysis was done",
-        "The data, the preparation, and why this re-analysis reaches a different conclusion from the first one. "
-        f'The original Python work is in the <a href="{NOTEBOOK_URL}" target="_blank">notebook</a> (updated with the corrections described here).',
+        "The data, the preparation, how each question was answered and the limits of the data. "
+        f'The full Python work is in the <a href="{NOTEBOOK_URL}" target="_blank">notebook</a>.',
     )
 
     section("The data")
@@ -41,19 +41,15 @@ def render() -> None:
         ("Time", "Daily dates", "Summed per month, per feature and per customer"),
     ], columns=["Item", "What was found", "How it was handled"]), hide_index=True, border="horizontal")
 
-    section("How this differs from the original analysis")
+    section("How each question was answered")
     st.table(pd.DataFrame([
-        ("Was January 2023 a drop?", "Compared January with earlier usage in general",
-         "Compared with every earlier January and with the same month a year before: lowest January in the data, "
+        ("Was January 2023 a drop?", "Compared with every earlier January and with the same month a year before: lowest January in the data, "
          "about 20% down, but the fall started in June 2022"),
-        ("Which customers?", "January total vs the customer's average per daily record in earlier years "
-         "(a month compared with a day); eight customers flagged",
-         "January vs the customer's own average month; checked against how many customers dip that far in a "
+        ("Which customers?", "January vs the customer's own average month; checked against how many customers dip that far in a "
          "normal month. No unusual group"),
-        ("Which feature?", "Average time per record in January 2023, by feature: Automation lowest, so blamed",
-         "Each feature against its own history: Roadmap halved from June 2022 and explains about three quarters "
+        ("Which feature?", "Each feature against its own history: Roadmap halved from June 2022 and explains about three quarters "
          "of the drop; Automation is always the lowest"),
-    ], columns=["Question", "First version", "This re-analysis"]), hide_index=True, border="horizontal")
+    ], columns=["Question", "How it was answered, and the result"]), hide_index=True, border="horizontal")
 
     section("Limits of this data")
     md("- **What, not why.** The logs show Roadmap usage halving in June 2022 but not the reason; that needs "
