@@ -1,6 +1,6 @@
 # What really happened to product usage in January 2023?
 
-**Live app:** [product-usage-analysis.streamlit.app](https://product-usage-analysis.streamlit.app/) · **Notebook and project folder:** [AIOPS-Portfolio-Projects](https://github.com/ahmadhassan-aiops/AIOPS-Portfolio-Projects/tree/main/1.%20Data-analysis-with-python-Projects/Usage_Analysis_of_Customers)
+**Live app:** [solution-usage-analysis.streamlit.app](https://solution-usage-analysis.streamlit.app/) · **Notebook and project folder:** [AIOPS-Portfolio-Projects](https://github.com/ahmadhassan-aiops/AIOPS-Portfolio-Projects/tree/main/1.%20Data-analysis-with-python-Projects/Usage_Analysis_of_Customers)
 
 An interactive analysis by **Ahmad Hassan** (AI Engineer) of a software product's usage logs: 100 customers,
 six features, June 2017 to January 2023. The question was why usage looked weak in January 2023.
